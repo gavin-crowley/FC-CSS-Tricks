@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    height: 100vh; /*set because there's no content*/
+    grid-template-areas: "navbar navbar navbar"
+                         "left_addbar main_content right_addbar"
+                         "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+
+/* .navbar:hover,
+.left_addbar:hover,
+.main_content:hover */
+
+.navbar {
+    background: steelblue;
+    grid-area: navbar
+}
+
+.left_addbar {
+    background: gold;
+    grid-area: left_addbar;
+}
+
+.right_addbar {
+    background: magenta;
+    grid-area: right_addbar;
+}
+
+.footer {
+    background: limegreen;
+    grid-area: footer;
+}
+

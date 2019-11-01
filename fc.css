@@ -1,0 +1,104 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* flexbox center elements */
+.notice__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* responsive tables */
+main {
+    overflow: scroll;
+}
+
+
+/* text gradient - see vid */
+
+/* holy grail layout - see files */
+
+/* carousel - see vid */
+
+/* flip - see vid */
+
+/* pin  */
+ aside {
+     display: flex;
+ }
+
+ .box {
+     position: fixed;
+     top: 0;
+     right: 0;
+     width: 200px;
+     height: 200px;
+     background: red;
+ }
+
+ /* viewport meta tag  */
+ /* important for responsive design  */
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+ /* width=device-width: make width of device */
+ /* initial-scale=1.0: set the zoom level to 1.0 */
+ /* maximum-scale=1.0: can't zoom, but if set to 2.0 then can zoom */
+ /* user-scalable=yes: can zoom */
+
+ /* sidebar / hamburger menu   - toggles sidebar with JS - see vid*/
+
+/* snackbar / popup GOOD ONE - see vid*/
+
+/* fancy text with css grid - kind of good */
+
+/* modal - GOOD ONE  */
+
+/* perspective - cool trick  */
+
+/* content expanding  - GOOD ONE*/
+
+/* not last child */
+
+/* text underline animation - GOOD ONE */
+
+/* ellipsis - GOOD ONE */
+
+/* fade siblings - GOOD ONE  */
+
+/* spinner - GOOD ONE  */
+
+/* spotlight - cool trick  */
+
+/* background positioning good walkthrough */
+
+/* float flex grid #lesson 25 */
+/* https://github.com/fChristenson/css-tricks */
+
+/* Google loader - cool trick */
+
+/* Half moon loader -cool trick */
+
+/* Linkedin loader - cool trick */
+
+/* Step indicator - cool trick  */
+
+/* card flip - cool trick */
+
+/* cube rotation - cool trick  */
+
+/* expanding text - ncie text trick - could work in portfolio */
+
+/* falling letters - cool trick */
+
+/* gradients */
+
+/* falling text */
+
+/* floating label - GOOD ONE  */
+
+/* icon attention */
